@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Dagster
+.dagster/
+dagster.db
+dagster_storage/
+
+# Data (derived outputs)
+# *.csv
+# *.geojson
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+nohup.out
+
+# OS / Editors
+.DS_Store
+.vscode/
+.idea/
