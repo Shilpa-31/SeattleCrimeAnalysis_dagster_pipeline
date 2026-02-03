@@ -10,15 +10,16 @@ from sqlalchemy import create_engine
 import geopandas as gpd
 from shapely.geometry import shape
 
+
 # -----------------------------
 # Global database configuration
 # -----------------------------
 # MongoDB Connection
-MONGO_URI = "mongodb+srv://myMongoDB:myMongoDB@developerclusterone.svs3c.mongodb.net/"
+MONGO_URI = "mongodb+srv://<username>:<password>@<cluster-host>/<svs3c.mongodb.net>"
 mongo_client = MongoClient(MONGO_URI)
 
 # PostgreSQL connection
-POSTGRES_URI = "postgresql://postgres:admin@localhost:5433/myDatabase"
+POSTGRES_URI = "postgresql://<username>:<password>@<host>:<port>/<databasename>"
 postgres_engine = create_engine(POSTGRES_URI)
 
 # Helper functions
