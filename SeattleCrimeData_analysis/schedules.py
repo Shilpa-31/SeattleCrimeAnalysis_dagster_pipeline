@@ -15,6 +15,6 @@ daily_crime_schedule = ScheduleDefinition(
 # WEEKLY — Run spatial join Sunday at 6 PM
 weekly_geo_schedule = ScheduleDefinition(
     name="weekly_geo_schedule",
-    cron_schedule="0 6 * * *",
+    cron_schedule="0 18 * * 0",
     job=weekly_geo_spatial_job,
 )
