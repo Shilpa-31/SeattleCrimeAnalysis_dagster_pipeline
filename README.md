@@ -1,6 +1,6 @@
-# 🚔 Seattle Crime Data Engineering & Geo-Spatial Analytics Pipeline
+# Seattle Crime Data & Geo-Spatial Analytics Pipeline using DAGSTER
 
-An end-to-end **data engineering project** that builds a scalable pipeline to ingest, clean, transform, and analyze Seattle crime data, enriched with **geo-spatial intelligence** and visualized through an interactive dashboard.
+An end-to-end **data analytics project** that builds a scalable pipeline to ingest, clean, transform, and analyze Seattle crime data, enriched with **geo-spatial intelligence** and visualized through an interactive dashboard.
 
 ---
 
